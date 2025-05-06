@@ -1,40 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+## Birthdae - a Virtal Interactive Birthday Card
 
-## Getting Started
+A terminal-themed interactive birthday card built with Next.js, featuring animations and personalized messages.
 
-First, run the development server:
+### 🛠️ Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Animations: 
+  - [Framer Motion](https://www.framer.com/motion/)
+  - [React Confetti](https://www.npmjs.com/package/react-confetti)
+  - [React Type Animation](https://www.npmjs.com/package/react-type-animation)
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/) from Google Fonts
+- Vercel (for deployment)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 👩🏻‍💻 Getting Started
+To run this project locally:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+#### Installation
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. Clone the repository:
+   ```bash
+    https://github.com/annaw-99/birthdae.git
+    cd birthdae
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## Learn More
+4. Open your browser and navigate to `http://localhost:3000`
 
-To learn more about Next.js, take a look at the following resources:
+### ✍🏻 Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+The application can be customized by modifying the following files:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/pages/index.tsx`: Update the welcome messages and timing
+- `src/pages/present.tsx`: Customize the present page content and button interactions
+- `src/pages/card.tsx`: Modify the birthday card message and confetti settings
 
-## Deploy on Vercel
+### ☎️ Contact
+Feel free to reach out if you have any questions or suggestions!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.

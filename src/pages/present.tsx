@@ -29,7 +29,7 @@ export default function Present() {
 
   const getDislikeButtonText = () => {
     switch (dislikeState) {
-      // change
+      // TODO: Change these text options based on your preferences
       case 0: return "i don't like it! 💔";
       case 1: return "whyyyyy 🥲";
       case 2: return "🙂";
@@ -40,7 +40,7 @@ export default function Present() {
 
   const getLikeButtonText = () => {
     switch (dislikeState) {
-      // change
+      // TODO: Change these text options based on your preferences
       case 0: return "i like it! 💝";
       case 1: return "choose meeee 🥹";
       case 2: return "i said choose meee 😤";
@@ -52,6 +52,7 @@ export default function Present() {
   return (
     <div className={`${jetbrainsMono.className} min-h-screen bg-[#0a0a0a] flex items-center justify-center`}>
       <Head>
+        {/* TODO: Change the title based on recipient's name */}
         <title>for_[name].io</title>
       </Head>
       <motion.div
@@ -60,7 +61,7 @@ export default function Present() {
         transition={{ duration: 0.5 }}
         className="text-center"
       >
-        {/* change this based on the present given */}
+        {/* TODO: Change these text options based on your present */}
         <div className="text-8xl mb-8">🎁</div>
         <div className="text-[#9cdcfe] text-2xl font-bold font-mono mb-8">
           it&apos;s a [present]

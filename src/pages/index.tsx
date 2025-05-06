@@ -20,7 +20,7 @@ export default function Home() {
     setTimeout(() => {
       setShowMessage(false);
       setShowPresents(true);
-      // change
+      // TODO: Change the time it takes to show the presents based on the number of messages below
     }, 11000);
   };
 
@@ -31,6 +31,7 @@ export default function Home() {
  return (
     <div className={`${jetbrainsMono.className} min-h-screen bg-[#0a0a0a] flex items-center justify-center`}>
       <Head>
+        {/* TODO: Change the title based on recipient's name */}
         <title>for_[name].io</title>
       </Head>
       <div className="text-center">
@@ -55,6 +56,7 @@ export default function Home() {
             >
               <TypeAnimation
                 sequence={[
+                  // TODO: Change the messages based on your preferences (add more messages if needed)
                     "hi [name] 👋🏻",
                     2000,
                     "[enter message #1 here 🙌🏻]",

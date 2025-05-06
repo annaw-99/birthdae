@@ -35,6 +35,7 @@ export default function Present() {
   return (
     <div className={`${jetbrainsMono.className} min-h-screen bg-[#0a0a0a] flex items-center justify-center`}>
       <Head>
+        {/* TODO: Change the title based on recipient's name */}
         <title>for_[name].io</title>
       </Head>
       <Confetti
@@ -42,7 +43,7 @@ export default function Present() {
         height={windowSize.height}
         numberOfPieces={200}
         recycle={true}
-        // change 
+        // TODO: Change the duration of the confetti animation based on your preferences
         tweenDuration={10000}
         colors={['#FFD700', '#FF69B4', '#87CEEB', '#98FB98', '#DDA0DD']}
       />
@@ -65,6 +66,7 @@ export default function Present() {
           birthdae!!!
         </div>
         <div className="text-orange-300 text-xs font-bold font-mono">
+          {/* A heartfelt message for the recipient */}
           <p className="mb-4">hope u can always be hapPI and bEUtiful 🥹✨💝</p>
         </div>
       </motion.div>

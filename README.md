@@ -1,6 +1,6 @@
 ## Birthdae - a Virtal Interactive Birthday Card
 
-A terminal-themed interactive birthday card built with Next.js, featuring animations and personalized messages.
+A terminal-themed interactive birthday card built with Next.js, featuring animations and personalized messages. Preview [here](https://birthdae.vercel.app/).
 
 ### 🛠️ Tech Stack
 
